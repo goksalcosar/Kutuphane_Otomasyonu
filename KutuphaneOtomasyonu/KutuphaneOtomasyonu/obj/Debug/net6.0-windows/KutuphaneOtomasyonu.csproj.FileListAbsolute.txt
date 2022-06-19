@@ -1,0 +1,108 @@
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\KutuphaneOtomasyonu.exe
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\KutuphaneOtomasyonu.deps.json
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\KutuphaneOtomasyonu.runtimeconfig.json
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\KutuphaneOtomasyonu.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\KutuphaneOtomasyonu.pdb
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\Ayarlar_UserControl.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\GecK_UserControl.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\Hakkimda_UserControl.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\KitapK_UserControl.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\KitapUserControl.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\OzelComboBox.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\OzelTextBox.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\UyeUserControl.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\İstatisliker_UserControl.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\Windows\AnaEkran.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\Windows\MainWindow.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu_MarkupCompile.cache
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu_MarkupCompile.lref
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\App.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\Ayarlar_UserControl.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\GecK_UserControl.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\Hakkimda_UserControl.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\KitapK_UserControl.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\KitapUserControl.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\OzelComboBox.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\OzelTextBox.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\UyeUserControl.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\İstatisliker_UserControl.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\Windows\AnaEkran.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\Windows\MainWindow.baml
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.g.resources
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.AssemblyInfoInputs.cache
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.AssemblyInfo.cs
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.csproj.CopyComplete
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\refint\KutuphaneOtomasyonu.dll
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.pdb
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.genruntimeconfig.cache
+C:\Users\AdminPc\Documents\Visual Studio 2022\Project\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\ref\KutuphaneOtomasyonu.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\KutuphaneOtomasyonu.exe
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\KutuphaneOtomasyonu.deps.json
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\KutuphaneOtomasyonu.runtimeconfig.json
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\KutuphaneOtomasyonu.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\KutuphaneOtomasyonu.pdb
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\LiveCharts.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\LiveCharts.Wpf.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.csproj.AssemblyReference.cache
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\Ayarlar_UserControl.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\GecK_UserControl.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\Hakkimda_UserControl.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\KitapK_UserControl.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\KitapUserControl.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\OzelComboBox.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\OzelTextBox.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\UyeUserControl.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\İstatisliker_UserControl.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\Windows\AnaEkran.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\Windows\MainWindow.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu_MarkupCompile.cache
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu_MarkupCompile.lref
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\App.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\Ayarlar_UserControl.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\GecK_UserControl.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\Hakkimda_UserControl.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\KitapK_UserControl.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\KitapUserControl.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\OzelComboBox.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\OzelTextBox.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\UyeUserControl.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\UserControls\İstatisliker_UserControl.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\Windows\AnaEkran.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\Windows\MainWindow.baml
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.g.resources
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.AssemblyInfoInputs.cache
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.AssemblyInfo.cs
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.csproj.CoreCompileInputs.cache
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.csproj.CopyComplete
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\refint\KutuphaneOtomasyonu.dll
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.pdb
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\KutuphaneOtomasyonu.genruntimeconfig.cache
+C:\Users\AdminPc\Documents\GitHub\Kutuphane_Otomasyonu\KutuphaneOtomasyonu\KutuphaneOtomasyonu\obj\Debug\net6.0-windows\ref\KutuphaneOtomasyonu.dll

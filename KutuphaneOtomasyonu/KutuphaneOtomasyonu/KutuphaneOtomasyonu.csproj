@@ -1,0 +1,158 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Image\backgroundWallpaper.jpg" />
+    <None Remove="Image\backgroundWallpaper.png" />
+    <None Remove="Image\Background_1.png" />
+    <None Remove="Image\Background_2.png" />
+    <None Remove="Image\icon\adam.png" />
+    <None Remove="Image\icon\BilgiButton.png" />
+    <None Remove="Image\icon\book 3.png" />
+    <None Remove="Image\icon\Books.png" />
+    <None Remove="Image\icon\BookSaydam.fw.png" />
+    <None Remove="Image\icon\Danger.png" />
+    <None Remove="Image\icon\developer.png" />
+    <None Remove="Image\icon\Done.png" />
+    <None Remove="Image\icon\DoneCheck.png" />
+    <None Remove="Image\icon\Hakkında.png" />
+    <None Remove="Image\icon\hfg.png" />
+    <None Remove="Image\icon\keyWhite.png" />
+    <None Remove="Image\icon\List.png" />
+    <None Remove="Image\icon\Menu.png" />
+    <None Remove="Image\icon\multiply.png" />
+    <None Remove="Image\icon\Ok.png" />
+    <None Remove="Image\icon\Okuyucu.png" />
+    <None Remove="Image\icon\Read3.png" />
+    <None Remove="Image\icon\Settings.png" />
+    <None Remove="Image\icon\Takvim.png" />
+    <None Remove="Image\icon\ToolBarIcon.ico" />
+    <None Remove="Image\icon\userWhite.png" />
+    <None Remove="Image\icon\İptal Button.png" />
+    <None Remove="Image\icon\İptalButton.png" />
+    <None Remove="Image\icon\İstatislik.png" />
+    <None Remove="Image\Keyicon.png" />
+    <None Remove="Image\Kutuphane.jpg" />
+    <None Remove="Image\KutuphaneAnaLogo.png" />
+    <None Remove="Image\library_32px.png" />
+    <None Remove="Image\Logo.png" />
+    <None Remove="Image\UserName.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="LiveCharts.Wpf" Version="0.9.7" />
+    <PackageReference Include="MySql.Data" Version="8.0.29" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Image\icon\adam.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\BilgiButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\book 3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\Books.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\BookSaydam.fw.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\Danger.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\developer.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\Done.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\DoneCheck.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\Hakkında.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\hfg.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\keyWhite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\List.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\Menu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\multiply.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\Ok.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\Okuyucu.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\Read3.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\Settings.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\Takvim.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\ToolBarIcon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\userWhite.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\İptal Button.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\İptalButton.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\Keyicon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\icon\İstatislik.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\KucukLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Kutuphane.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\KutuphaneAnaLogo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Background_1.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\library_32px.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Logo.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\UserName.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Image\Background_2.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>

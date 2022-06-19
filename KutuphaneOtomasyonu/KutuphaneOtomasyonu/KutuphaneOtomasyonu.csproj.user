@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="UserControls\Ayarlar_UserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\GecK_UserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\Hakkimda_UserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\KitapK_UserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\KitapUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\OzelComboBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\UyeUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\İstatisliker_UserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\AnaEkran.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="UserControls\OzelTextBox.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="UserControls\Ayarlar_UserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\GecK_UserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\Hakkimda_UserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\KitapK_UserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\KitapUserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\OzelComboBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\UyeUserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\İstatisliker_UserControl.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\AnaEkran.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="UserControls\OzelTextBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,140 @@
+﻿<UserControl x:Class="KutuphaneOtomasyonu.UserControls.Ayarlar_UserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:KutuphaneOtomasyonu.UserControls"
+             xmlns:UC="clr-namespace:KutuphaneOtomasyonu.UserControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="#2d364c">
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="0">
+            <UC:OzelTextBox Hint="Arama Yapılacak Kullanıcı Adı Bilginiz" Caption="Kullanıcı Adı" Width="400" x:Name="txt_Arama"/>
+            <UC:OzelTextBox Hint="Yeni veya Eski Kullanıcı Adınızı Yazınız" Caption="Kullanıcı Adı" Width="400" x:Name="txt_KullanicAdi"/>
+            <UC:OzelTextBox Hint="Yeni Şifre Bilginizi Buraya Yazınız" Caption="Yeni Şifre" Width="400" x:Name="txt_Sifre"/>
+            <UC:OzelTextBox Hint="Yeni Şifrenizi Tekrar Yazınız" Caption="Yeni Şifre Tekrar" Width="400" x:Name="txt_SifreTekrar"/>
+            <Button Content="Kayıt" Margin="0,15,0,0" Style="{StaticResource btn_Style}" Click="Button_Click" />
+        </StackPanel>
+
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            
+            <DataGrid x:Name="Dtg_Liste" ItemsSource="{Binding}" Background="{x:Null}" BorderBrush="{x:Null}" 
+                  IsReadOnly="True" RowHeight="30" CanUserAddRows="False" CanUserSortColumns="True"
+                  CanUserResizeColumns="False" CanUserResizeRows="False" AutoGenerateColumns="False" HeadersVisibility="Column"
+                  Style="{StaticResource DataGridStyle}" HorizontalAlignment="Stretch" VerticalAlignment="Top" 
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto" ScrollViewer.VerticalScrollBarVisibility="Auto" 
+                  Grid.Column="1" Grid.Row="0">          
+
+
+                <DataGrid.Columns>
+
+                    <DataGridTextColumn Binding="{Binding Path=ID}" IsReadOnly="True" Header="ID" 
+                                    MinWidth="50">
+
+                        <DataGridTextColumn.ElementStyle>
+
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Left"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="Padding" Value="5"/>
+                            </Style>
+
+                        </DataGridTextColumn.ElementStyle>
+
+                        <DataGridTextColumn.CellStyle>
+                            <Style TargetType="DataGridCell">
+                                <Setter Property="Background" Value="#6534ac"/>
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="BorderBrush" Value="#FF272C38"/>
+                                <Setter Property="BorderThickness" Value="1,0,0,0"/>
+
+                                <Style.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="#FF401979"/>
+                                        <Setter Property="Foreground" Value="White"/>
+                                        <Setter Property="BorderBrush" Value="#FF272C38"/>
+                                        <Setter Property="BorderThickness" Value="5,0,0,0"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </DataGridTextColumn.CellStyle>
+
+
+                    </DataGridTextColumn>
+
+
+
+                    <DataGridTextColumn Binding="{Binding Path=KullaniciAdi}" IsReadOnly="True" Header="KULLANICI ADI" 
+                                    MinWidth="30">
+
+                        <DataGridTextColumn.ElementStyle>
+
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Left"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="Padding" Value="5"/>
+                            </Style>
+
+                        </DataGridTextColumn.ElementStyle>
+
+                    </DataGridTextColumn>
+
+
+                    <DataGridTextColumn Binding="{Binding Path=Sifre}" IsReadOnly="True" Header="KULLANICININ ŞİFRESİ" 
+                                    MinWidth="131">
+
+                        <DataGridTextColumn.ElementStyle>
+
+                            <Style TargetType="TextBlock">
+                                <Setter Property="HorizontalAlignment" Value="Left"/>
+                                <Setter Property="VerticalAlignment" Value="Center"/>
+                                <Setter Property="Padding" Value="5"/>
+                            </Style>
+
+                        </DataGridTextColumn.ElementStyle>
+
+                    </DataGridTextColumn>
+
+                </DataGrid.Columns>
+
+            </DataGrid>
+
+            <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto"  Grid.Row="1">
+                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="1" Grid.Row="1">
+                    <UC:OzelTextBox Hint="KUllanıcıyı Silmek İçin ID Numarasını Giriniz" Caption="Silinecek ID" Width="400" x:Name="txt_Ekleme_Sil_ID"/>
+                    <UC:OzelTextBox Hint="Lütfen KUllanıcı Adı Giriniz" Caption="Kullanıcı Adı" Width="400" x:Name="txt_Ekleme_Kullanici_Adi"/>
+                    <UC:OzelTextBox Hint="Lütfen Kullanıcının Şifresini Yazınız" Caption="Şifre" Width="400" x:Name="txt_Ekleme_Sifre"/>
+                    <UC:OzelTextBox Hint="Kullanıcının Şifresini Tekrar Yazınız" Caption="Şifre Tekrar" Width="400" x:Name="txt_Ekleme_Sifre_Tekrar"/>
+                </StackPanel>
+            </ScrollViewer>
+
+
+            <ScrollViewer ScrollViewer.VerticalScrollBarVisibility="Auto" ScrollViewer.HorizontalScrollBarVisibility="Auto"  Grid.Row="2">
+                <StackPanel Grid.Row="2" Orientation="Horizontal" VerticalAlignment="Center" HorizontalAlignment="Center">
+                    <Button Content="Kayıt" Style="{StaticResource btn_Style}" Click="Button_Click_1" x:Name="btn" Width="100"/>
+                    <Button Content="Sil" Margin="10,0,0,0" Style="{StaticResource btn_Style}" Click="Button_Click_2" Width="100"/>
+                    <Button Content="Listele" Margin="10,0,0,0" Style="{StaticResource btn_Style}" Click="Button_Click_3" Width="100"/>
+                </StackPanel>
+            </ScrollViewer>
+                
+
+
+        </Grid>
+        
+       
+        
+                
+    </Grid>
+</UserControl>

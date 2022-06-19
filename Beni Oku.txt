@@ -1,0 +1,9 @@
+Proje Göksal Çoşar Tarafından Geliştirilmiştir.
+
+Merhabalar, projemi indirdiğiniz için ilk öncelikle teşekkür ederim :)
+Projem tamamen C#,WPF,MySQL teknolojileri ile hazırlanmıştır. MySQL
+Database kaynağı ise Db klasöründeki "kutuphane_database.sql" dosyasıdır, bu dosyayı
+projeyi server tabanında çalıştırmak istiyorsanız database'in içerisindeki 
+"CHARSET" yazana bölümde "utf8" dışında yazanların hepsini "utf8" yapınız ve
+projedeki DB_Baglanti class'ının içerisindeki "Path" yolunu da değiştiriniz.
+

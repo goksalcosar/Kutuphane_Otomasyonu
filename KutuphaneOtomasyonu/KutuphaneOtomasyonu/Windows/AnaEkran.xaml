@@ -1,0 +1,191 @@
+﻿<Window x:Class="KutuphaneOtomasyonu.AnaEkran"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KutuphaneOtomasyonu"
+        xmlns:UC="clr-namespace:KutuphaneOtomasyonu.UserControls"
+        mc:Ignorable="d"
+        WindowStyle="None" AllowsTransparency="True"
+        Background="Transparent" WindowStartupLocation="CenterScreen"
+        Height="600" Width="1200" Icon="/Image/icon/ToolBarIcon.ico" ResizeMode="NoResize">
+
+
+    <Border CornerRadius="0">
+        <Border.Effect>
+            <DropShadowEffect Direction="300" Opacity="0.5"/>
+        </Border.Effect>
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="7*"/>
+            </Grid.ColumnDefinitions>
+
+
+            <Border  Background="#2d364c" Grid.Row="0" Grid.ColumnSpan="2" MouseDown="Border_MouseDown" BorderBrush="#FF272C38" BorderThickness="0,0,0,2">
+                <Grid>
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Center" Grid.Column="0" Grid.Row="0">
+                        <Image Source="/Image/KucukLogo.png" Grid.Row="7" Width="50" Height="40"/>
+                        <TextBlock Grid.Row="7" FontSize="14" Text="Kutuphane Otomasyonu V1.0" HorizontalAlignment="Right" VerticalAlignment="Center"
+                                   FontWeight="Bold" Foreground="White">
+                            <TextBlock.Effect>
+                                <DropShadowEffect Direction="300" BlurRadius="5" ShadowDepth="7" Opacity="0.5"/>
+                            </TextBlock.Effect>
+                        </TextBlock>
+                    </StackPanel>
+
+
+
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                        <Border Grid.Column="0" Grid.Row="0">
+                            <StackPanel Grid.Column="1" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Center">
+                                <Button Content="__" FontSize="15" Style="{StaticResource Ana_yukarı_btnStyle}" Height="42" Click="Button_Click"/>
+                                <Button Content="X" FontSize="15" Style="{StaticResource Ana_yukarı_btnStyle}" Height="40" Click="Button_Click_1"/>
+                            </StackPanel>
+                        </Border>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <Border Background="#2d364c" Grid.Row="1" Grid.Column="0" BorderBrush="#FF272C38" BorderThickness="0,1,2,0">
+
+                <Grid>
+                    <Canvas>
+                        <Polygon Points="0,50 120,150 0,250" Fill="#353f59"/>
+                        <Polygon Points="100,400 200,370 180,470" Fill="#353f59" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-96" Canvas.Top="10"/>
+                        <Ellipse Width="40" Height="40" Fill="#353f59" Canvas.Top="490" HorizontalAlignment="Left" Canvas.Left="51" VerticalAlignment="Top"/>
+                        <Ellipse Width="20" Height="20" Fill="#353f59" Canvas.Left="15" Canvas.Top="327"/>
+                    </Canvas>
+
+                    <StackPanel Margin="0,0,0,0">
+
+                        <ToggleButton Style="{StaticResource toggle_btnStyle}" x:Name="btn_Uye" Click="ToggleButton_Click">
+                            <StackPanel Orientation="Vertical">
+                                <Image Source="/Image/icon/Okuyucu.png" Style="{StaticResource ımage_Style}"/>
+                                <TextBlock Text="Üye İle İlgili Tüm Yönetici İşlemleri" Style="{StaticResource menu_TextBlock}"/>
+                            </StackPanel>
+                        </ToggleButton>
+
+                        <ToggleButton Style="{StaticResource toggle_btnStyle}"  x:Name="btn_Kitap" Click="btn_Kitap_Click">
+                            <StackPanel>
+                                <Image Source="/Image/icon/Books.png" Style="{StaticResource ımage_Style}"/>
+                                <TextBlock Text="Kitap İle İlgili Tüm Yönetici İşlemleri" Style="{StaticResource menu_TextBlock}"/>
+                            </StackPanel>
+                        </ToggleButton>
+
+                        <ToggleButton Style="{StaticResource toggle_btnStyle}"  x:Name="btn_KitapK" Click="btn_KitapK_Click">
+                            <StackPanel>
+                                <Image Source="/Image/icon/List.png" Style="{StaticResource ımage_Style}"/>
+                                <TextBlock Text="Kitap Kiralama Bölümü" Style="{StaticResource menu_TextBlock}"/>
+                            </StackPanel>
+                        </ToggleButton>
+
+                        <ToggleButton Style="{StaticResource toggle_btnStyle}"  x:Name="btn_GecK" Click="btn_GecK_Click">
+                            <StackPanel>
+                                <Image Source="/Image/icon/Takvim.png" Style="{StaticResource ımage_Style}"/>
+                                <TextBlock Text="İade İşlemleri Bölümü" Style="{StaticResource menu_TextBlock}"/>
+                            </StackPanel>
+                        </ToggleButton>
+
+                        <ToggleButton Style="{StaticResource toggle_btnStyle}"  x:Name="btn_İstatislikler" Click="btn_İstatislikler_Click">
+                            <StackPanel>
+                                <Image Source="/Image/icon/İstatislik.png" Style="{StaticResource ımage_Style}"/>
+                                <TextBlock Text="İstatislikler Bölümü" Style="{StaticResource menu_TextBlock}"/>
+                            </StackPanel>
+                        </ToggleButton>
+
+
+                        <ToggleButton Style="{StaticResource toggle_btnStyle}"  x:Name="btn_Ayarlar" Click="btn_Ayarlar_Click">
+                            <StackPanel>
+                                <Image Source="/Image/icon/Settings.png" Style="{StaticResource ımage_Style}"/>
+                                <TextBlock Text="Ayarlar Bölümü" Style="{StaticResource menu_TextBlock}"/>
+                            </StackPanel>
+                        </ToggleButton>
+
+                        <ToggleButton Style="{StaticResource toggle_btnStyle}"  x:Name="btn_Hakkında" Click="btn_Hakkında_Click">
+                            <StackPanel>
+                                <Image Source="/Image/icon/developer.png" Style="{StaticResource ımage_Style}"/>
+                                <TextBlock Text="Hakkında Bölümü" Style="{StaticResource menu_TextBlock}"/>
+                            </StackPanel>
+                        </ToggleButton>
+
+                    </StackPanel>
+
+
+                </Grid>
+            </Border>
+
+
+            <Border Grid.Column="1" Grid.Row="1">
+
+
+                <Grid x:Name="AnaMenu" Background="#2d364c">
+
+                    <Image Source="/Image/Background_2.png" Stretch="Fill"/>
+                    <Viewbox Width="180" Height="180" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,250">
+                        <Path Data="M488.095,153.614L247.762,20.088c-1.511-0.838-3.344-0.839-4.854-0.002L2.575,153.398c-1.992,1.105-2.985,3.419-2.415,5.625
+	c0.571,2.207,2.562,3.748,4.841,3.748h21.703v21.699c0,2.761,2.238,5,5,5h21.704v22.126c0,2.761,2.238,5,5,5H71.21v164.505H58.408
+	c-2.762,0-5,2.239-5,5v21.709H40.605c-2.762,0-5,2.239-5,5v21.699h-3.901c-2.762,0-5,2.239-5,5v26.699c0,2.761,2.238,5,5,5h427.26
+	c2.762,0,5-2.239,5-5V439.51c0-2.761-2.238-5-5-5h-3.901V412.81c0-2.761-2.238-5-5-5h-12.803v-21.709c0-2.761-2.238-5-5-5h-12.803
+	V216.596h12.803c2.762,0,5-2.239,5-5V189.47h21.704c2.762,0,5-2.239,5-5v-21.658l21.663,0.173c0.014,0,0.027,0,0.04,0
+	c2.27,0,4.256-1.529,4.835-3.727C491.083,157.047,490.093,154.724,488.095,153.614z M151.321,189.47v22.126c0,2.761,2.238,5,5,5
+	h12.803v164.505h-12.803c-2.762,0-5,2.239-5,5v21.709h-7.802v-21.709c0-2.761-2.238-5-5-5h-12.803V216.596h12.803
+	c2.762,0,5-2.239,5-5V189.47H151.321z M329.346,407.81h-70.111v-16.709h12.803h44.506h12.803V407.81z M277.038,381.101V216.596
+	h34.506v164.505H277.038z M316.645,206.596c-0.035-0.001-0.067-0.01-0.102-0.01h-44.506c-0.035,0-0.067,0.01-0.102,0.01h-12.701
+	v-16.709h70.111v16.709H316.645z M254.235,216.596h12.803v164.505h-12.803c-2.762,0-5,2.239-5,5v21.709h-7.803v-21.709
+	c0-2.761-2.238-5-5-5h-12.803V216.596h12.803c2.762,0,5-2.239,5-5V189.47h7.803v22.126
+	C249.235,214.357,251.473,216.596,254.235,216.596z M161.321,189.887h70.111v16.709h-12.701c-0.035-0.001-0.067-0.01-0.102-0.01
+	h-44.506c-0.035,0-0.067,0.01-0.102,0.01h-12.701V189.887z M179.124,216.596h34.506v164.505h-34.506V216.596z M174.124,391.101
+	h44.506h12.803v16.709h-70.111v-16.709H174.124z M63.408,189.887h70.111v16.709h-12.701c-0.035-0.001-0.067-0.01-0.102-0.01H76.21
+	c-0.035,0-0.067,0.01-0.102,0.01H63.408V189.887z M81.21,216.596h34.506v164.505H81.21V216.596z M63.408,391.101H76.21h44.506
+	h12.803v16.709H63.408V391.101z M445.062,434.51h-3.461c-2.762,0-5,2.239-5,5s2.238,5,5,5h8.461h3.901v16.699H36.704V444.51h3.901
+	h370.978c2.762,0,5-2.239,5-5s-2.238-5-5-5H45.605V417.81h12.803h80.111h17.802h80.111h17.803h80.111h17.802h80.111h12.803V434.51z
+	 M427.259,407.81h-70.111v-16.709h12.803h44.506h12.803V407.81z M409.457,381.101h-34.506V216.596h34.506V381.101z M427.259,206.596
+	h-12.701c-0.035-0.001-0.067-0.01-0.102-0.01h-44.506c-0.035,0-0.067,0.01-0.102,0.01h-12.701v-16.709h70.111V206.596z
+	 M352.148,216.596h12.803v164.505h-12.803c-2.762,0-5,2.239-5,5v21.709h-7.802v-21.709c0-2.761-2.238-5-5-5h-12.803V216.596h12.803
+	c2.762,0,5-2.239,5-5V189.47h7.802v22.126C347.148,214.357,349.386,216.596,352.148,216.596z M459.003,152.771
+	c-0.013,0-0.027,0-0.04,0h-0.001h-14.36c-2.762,0-5,2.239-5,5s2.238,5,5,5h9.361v16.699H36.704v-16.699h374.878c2.762,0,5-2.239,5-5
+	s-2.238-5-5-5H31.704h-7.381L245.332,30.177l220.759,122.65L459.003,152.771z M197.949,67.923c-1.131,0.95-1.784,2.352-1.784,3.829
+	v56.218c0,2.428,1.745,4.506,4.137,4.925l44.169,7.743c0.285,0.05,0.574,0.075,0.863,0.075s0.578-0.025,0.863-0.075l44.169-7.743
+	c2.392-0.419,4.137-2.497,4.137-4.925V71.752c0-1.477-0.653-2.878-1.784-3.829c-1.131-0.95-2.623-1.351-4.079-1.096l-43.306,7.591
+	l-43.306-7.591C200.574,66.573,199.08,66.974,197.949,67.923z M206.165,77.704l34.169,5.99v33.31c0,2.761,2.238,5,5,5s5-2.239,5-5
+	v-33.31l34.169-5.99v46.066l-34.169,5.99v-0.203c0-2.761-2.238-5-5-5s-5,2.239-5,5v0.203l-34.169-5.99V77.704z M103.463,229.833
+	v141.5c0,2.761-2.238,5-5,5s-5-2.239-5-5v-141.5c0-2.761,2.238-5,5-5S103.463,227.072,103.463,229.833z M201.376,229.833v141.5
+	c0,2.761-2.238,5-5,5s-5-2.239-5-5v-141.5c0-2.761,2.238-5,5-5S201.376,227.072,201.376,229.833z M299.29,229.833v141.5
+	c0,2.761-2.238,5-5,5s-5-2.239-5-5v-141.5c0-2.761,2.238-5,5-5S299.29,227.072,299.29,229.833z M387.204,371.333v-141.5
+	c0-2.761,2.238-5,5-5s5,2.239,5,5v141.5c0,2.761-2.238,5-5,5S387.204,374.095,387.204,371.333z" Fill="White"/>
+                    </Viewbox>
+
+                    <TextBlock Text="Kütüphane Otomasyonu Programına Hoşgeldiniz" 
+                               FontSize="40" Foreground="WhiteSmoke" 
+                               HorizontalAlignment="Center" VerticalAlignment="Center"
+                               TextWrapping="Wrap" FontFamily="Britannic Bold" 
+                               TextAlignment="Center">
+
+                        <TextBlock.Effect>
+                            <DropShadowEffect Direction="280" BlurRadius="10" ShadowDepth="10"/>
+                        </TextBlock.Effect>
+                    </TextBlock>
+
+                    <TextBlock
+                               Text="Hiçbir toplumda genel kütüphane kadar demokratik bir yer yoktur, oraya girmek için verilecek biricik ücret, ilgiden ibarettir. Lyndon B. Johnson"
+                               HorizontalAlignment="Center" VerticalAlignment="Bottom"
+                               Foreground="WhiteSmoke" FontSize="23" TextWrapping="Wrap"
+                               FontStyle="Italic" FontFamily="Britannic Bold" TextAlignment="Center"
+                        Margin="0,0,0,200"/>
+
+                    <Button Content="Geliştirici Kişi" Style="{StaticResource btn_Style}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,0,0,130" Click="Button_Click_2"/>
+                </Grid>
+
+
+            </Border>
+
+        </Grid>
+    </Border>
+</Window>
