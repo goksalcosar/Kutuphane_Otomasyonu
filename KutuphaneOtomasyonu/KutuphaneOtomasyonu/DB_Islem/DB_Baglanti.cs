@@ -10,7 +10,7 @@ namespace KutuphaneOtomasyonu.DB_Islem
 {
     public static class DB_Baglanti
     {      
-        static private string Path { get; } = "SERVER=localhost;DATABASE=kutuhane_database;UID=root;PWD=root";
+        static private string Path { get; } = "SERVER=localhost;DATABASE=kutuphane_database;UID=root;PWD=root";
 
         static public string Path1
         {
