@@ -17,7 +17,7 @@ C#,WPF,MySQL Teknolojileri İle Hazırlanmış Kütüphane Otomasyonu <br/>
 
 ![Kitap_Ekleme](https://user-images.githubusercontent.com/98962680/174500393-2897e6bc-6688-407f-b574-08df388b005e.PNG) <br/>
 
-# Kitap Kiralam Paneli <br/>
+# Kitap Kiralama Paneli <br/>
 
 ![Kitap_Kiralama](https://user-images.githubusercontent.com/98962680/174500400-6d0aca72-c594-432e-aec7-ba1cc137405e.PNG) <br/>
 
